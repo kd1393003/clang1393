@@ -1,0 +1,12 @@
+#include<stdio.h>
+main()
+{
+	int no;
+	printf("êîÇÕ");
+		scanf("%d", &no);
+	do
+	{
+		no--;
+		printf("*****\n");
+	} while (0 < no);
+}
